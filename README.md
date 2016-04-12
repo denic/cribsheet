@@ -33,27 +33,25 @@ Notes about programs I use.
 
 ## Vim
 
-* Close all buffers
-    * http://stackoverflow.com/questions/3155461/how-to-delete-multiple-buffers-in-vim
-        * :bd *.js <C-a>
+**Close all buffers** [via](http://stackoverflow.com/questions/3155461/how-to-delete-multiple-buffers-in-vim)
+    :bd *.js <C-a>
 
-* Yank into command line
-    * http://stackoverflow.com/questions/3997078/how-to-paste-text-into-vim-command-line
-      * <C-r> "
+**Yank into command line** [via](http://stackoverflow.com/questions/3997078/how-to-paste-text-into-vim-command-line)
+     Ctrl+r "
     
-* Sort lines
-    * Select lines in visual mode
-    * :
-    * :'<,'> sort u
-    * http://vim.wikia.com/wiki/Sort_lines
+**Sort lines**
+* Select lines in visual mode
+* :
+* :'<,'> sort u
+* http://vim.wikia.com/wiki/Sort_lines
 
-* Interactive search and replace
-    * %s/old/new/gc
+**Interactive search and replace**
+* %s/old/new/gc
 
-* Jump to next matching character
-    * f<character>
+**Jump to next matching character**
+* f<character>
 
-### Scroll up/down, keeping your cursor in its row
+***Scroll up/down, keeping your cursor in its row***
 
 If you are in the middle of a file and want to scroll, but don't want to move your cursor all the way to the top row, use this:
 
@@ -68,9 +66,9 @@ If you are in the middle of a file and want to scroll, but don't want to move yo
         Ctrl+D → Move viewport Down
 
                                
-### Inner and outer select content by matching surrounding in Normal mode
-    * vi' -> Matches the bla part of 'bla'
-    * va{ -> Matches everything including the brackets in { foo: bar }
+**Inner and outer select content by matching surrounding in Normal mode**
+    vi' -> Matches the bla part of 'bla'
+    va{ -> Matches everything including the brackets in { foo: bar }
 
 **Show all lines including the word under the cursor in the current file and it's includes**
 
