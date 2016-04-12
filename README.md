@@ -72,7 +72,7 @@ If you are in the middle of a file and want to scroll, but don't want to move yo
     * vi' -> Matches the bla part of 'bla'
     * va{ -> Matches everything including the brackets in { foo: bar }
 
-*Show all lines including the word under the cursor in the current file and it's includes*
+**Show all lines including the word under the cursor in the current file and it's includes**
 
     [I
     ]I -> limit the search to all lines following the cursor position
